@@ -148,15 +148,7 @@ html {
 .menu-link:hover,
 .meni-link:focus {
   color: black;
-  transform: translateY(5rem);
 }
-
-/* .raise:hover,
-.raise:focus {
-  color: black;
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover); 
-  transform: translate(-0.25em);
-} */
 
 .social-media {
   position: absolute;
