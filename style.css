@@ -117,3 +117,61 @@ html {
     opacity: 1;
   }
 }
+
+.sidebar {
+  width: 40rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: hsl(34, 39%, 18%);
+}
+
+.menu {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu-link {
+  font-family: 'Baloo Da 2', serif;
+  font-size: 4rem;
+  color: #fff;
+  position: relative;
+}
+
+.menu-link:hover,
+.meni-link:focus {
+  color: black;
+  transform: translateY(5rem);
+}
+
+/* .raise:hover,
+.raise:focus {
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover); 
+  transform: translate(-0.25em);
+} */
+
+.social-media {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media i {
+  font-size: 2.2rem;
+  margin: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
