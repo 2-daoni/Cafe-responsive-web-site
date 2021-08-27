@@ -202,6 +202,7 @@ html {
 
 .menu-item {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .menu-link {
@@ -209,6 +210,7 @@ html {
   font-size: 3.5rem;
   color: #fff;
   position: relative;
+  margin-bottom: 5rem;
 }
 
 .menu-link:hover,
@@ -406,7 +408,7 @@ html {
   font-size: 2rem;
   line-height: 2.5rem;
   font-weight: bold;
-  color: #fff;
+  color: hsl(39, 32%, 26%);
 }
 
 .card-info h3 {
@@ -420,8 +422,8 @@ html {
 .card-info p {
   font-size: 1.4rem;
   font-synthesis: 1.6rem;
-  font-weight: 300;
-  color: #fff;
+  font-weight: 700;
+  color: hsl(39, 32%, 15%);
   width: 80%;
   margin-bottom: 2rem;
 }
@@ -569,7 +571,7 @@ html {
 }
 
 .copyright {
-  font-family: var(--main-font);
+  /* font-family: var(--main-font); */
   font-size: 1.4rem;
   color: #fff;
 }
@@ -581,6 +583,7 @@ html {
 .social-list i {
   font-size: 1.6rem;
   color: #fff;
+  margin-right: 5rem;
 }
 
 .scroll-btn {
